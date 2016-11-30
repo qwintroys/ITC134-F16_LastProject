@@ -4,7 +4,7 @@ class RemoteConnect
   public function connectToServer($serverName=null)
   {
     if($serverName==null){
-      throw new Exception(“That's not a server name!”);
+      throw new Exception(â€œThat is not a server name!â€);
     }
     $fp = fsockopen($serverName,80);
     return ($fp) ? true : false;
