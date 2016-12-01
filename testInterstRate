@@ -1,0 +1,6 @@
+<? php
+class InterestRate 
+{
+  public function [to accept an interest rate entered into a form]
+
+testInterestRate()
