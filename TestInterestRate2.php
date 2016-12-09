@@ -13,7 +13,7 @@ as well as needing to change the Interest Rate to a decimal (eg. 3.5% * 100 = 0.
 I hope I've commented this enough that you can easily write the code and correct any errors in my tests.
 */
 
-require_once('mortgage.php')
+require_once('MortgageCalculator.php')
 
 class mortgageTest extends PHPUnit_Framework_TestCase
 
