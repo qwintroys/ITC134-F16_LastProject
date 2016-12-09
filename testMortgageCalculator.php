@@ -15,7 +15,7 @@ I hope I've commented this enough that you can easily write the code and correct
 
 require_once('MortgageCalculator.php')
 
-class mortgageTest extends PHPUnit_Framework_TestCase
+class testMortgageCalculator extends PHPUnit_Framework_TestCase
 
 {
   public function setup(){}
@@ -33,7 +33,7 @@ class mortgageTest extends PHPUnit_Framework_TestCase
 
   public function LoanDuration() {
   {
-      $LoanDuration acc=Time();
+      $LoanDuration = Time();
       $months(y_int); //y_nt = number years entered by user
       $this->assertEquals(duration, n_int); //acc.duration = number of months of loan (eg 30 y = 12*30 = 360 months);number of payments(n)
   }
