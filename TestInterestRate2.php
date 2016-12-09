@@ -24,27 +24,27 @@ class mortgageTest extends PHPUnit_Framework_TestCase
   public function LoanAmountTest() {
     
       public function testLoanAmountIsValid() {
-        LoanAmount acc = new LoanAmount();
-        acc.beginning(int); //int=number entered by user
-        asstertEquals(acc.principle, int); //acc.start = basic loan amount; Principle(P)
+        $LoanAmount = new LoanAmount();
+        $beginning(int); //int=number entered by user
+        $this->asstertEquals(acc.principle, int); //acc.start = basic loan amount; Principle(P)
   }
 }
 
 
   public function LoanDuration() {
   {
-      LoanDuration acc=Time();
-      acc.months(y_int); //y_nt = number years entered by user
-      assertEquals(acc.duration, n_int); //acc.duration = number of months of loan (eg 30 y = 12*30 = 360 months);number of payments(n)
+      $LoanDuration acc=Time();
+      $months(y_int); //y_nt = number years entered by user
+      $this->assertEquals(duration, n_int); //acc.duration = number of months of loan (eg 30 y = 12*30 = 360 months);number of payments(n)
   }
 }
 
 
   public class InterestRate() {
  {
-      InterestRate acc=Rate();
-      acc.percent(i_int); //i_int = interest rate entered by user
-      assertEquals(acc.prate, r_int)// prate=interest rate of the loan in decimal form (i.e. 3.5% is 0.0035); rate of loan(r)
+      $InterestRate=Rate();
+      $percent(i_int); //i_int = interest rate entered by user
+      $this->assertEquals(prate, r_int)// prate=interest rate of the loan in decimal form (i.e. 3.5% is 0.0035); rate of loan(r)
       }
     }
     
@@ -62,7 +62,8 @@ class mortgageTest extends PHPUnit_Framework_TestCase
 
   public class Mortgagecalc(){
   {
-      acc.prate * [(1 + acc.prate)]**acc.duration
+      $prate * [(1 + acc.prate)]**acc.duration
+      $this->assertEquals(prate, r_int)          
       }
     }
 }
