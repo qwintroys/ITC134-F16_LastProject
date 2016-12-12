@@ -7,8 +7,8 @@
     
   "autoload": {
     "classmap": [
-      "testMorgageCalculator.php",
-      "MortgageCalculator.php"
+      "\bin\testMorgageCalculator.php",
+      "bin\MortgageCalculator.php"
     ]
   }
 }
